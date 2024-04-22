@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="tete">
       <nav>
-        <button class="navbutton">Présentation et Coordonnées</button>
-        <button class="navbutton">Compétences</button>
-        <button class="navbutton">Formation/Diplômes</button>
-        <button class="navbutton">Expériences professionnelles</button> 
-        <button class="navbutton">Sofskills et Langues</button>
+        <a class="navbutton" href="#Pres">Présentation et Coordonnées</a>
+        <a class="navbutton" href="#Comp">Compétences</a>
+        <a class="navbutton" href="#Form">Formation/Diplômes</a>
+        <a class="navbutton" href="#Exp">Expériences professionnelles</a>
+        <a class="navbutton" href="#Sof">Soft skills</a>
+        <a class="navbutton" href="#Lang">Langues</a>
       </nav>
     </header>
     <main>
         <section>
-      <div class="picture">
+      <div class="picture" id="Pres">
         <img src="/photofethi.jpg" alt="fethipict" class="pict" width="250px" height="150px">
       </div>
       <p class="text_area">
-        Bonjour, je m'appelle Fethi. Je suis à la recherche d'un poste de développeur front-end, dans un rayon de 30km autour de Lens. 
+        Bonjour, je m'appelle <strong>Fethi AMMOUR</strong>, développeur Front-end. Je suis à la recherche d'un poste de développeur front-end dans un rayon de 30km autour de Lens. 
       </p>
       <div class="info">
         <ul>
@@ -30,12 +31,13 @@
           <li><img src="/localisation.png" alt="">LENS</li>
           <li><img src="/phone.jpg" alt="">0615678914</li>
           <li><img src="/mail.jpg" alt="">ammourfethi62@gmail.com</li>
-          <li><img src="/logogithub.png" alt="">https://github.com/Fethi62000</li>
+          <li><img src="/logogithub.png" alt=""><a href="https://github.com/Fethi62000">github.com/Fethi62000</a></li>
           <li><img src="/logolinkedin.png" alt="">linkedin.com/in/fethiammour</li>        
         </ul>
       </div>
       </section>
-      <div class="text_area">
+      <section>
+      <div class="text_area" id="Comp">
         <h2>Compétences</h2>
         <h3>Langages de programmation :</h3>
         <ul>
@@ -47,6 +49,55 @@
         <ul>
             <li><img src="/image/git.png" alt="">GIT</li>
         </ul>
+      </div>
+      </section>
+      <section>
+        <div class="formadip" id="Form">
+          <h2>Formation/Diplômes</h2>
+          <ul>
+            <li><img src="/image/logosimplon.png" alt="">Simplon Lens(62300), date: 2024; intitulé: formation développeur intégrateur d'application web</li>
+            <li><img src="/image/lahoformation.png" alt=""> ville: Lens(62300), date: 2022-2023; intitulé: Titre professionnelle gestionnaire de paie (BAC+2)</li>
+            <li><img src="/image/bac.png" alt=""> Scientifique (spécialité Mathématique) Lycée saint-paul,ville: Lens(62300),date: 2017</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="proexp" id="Exp">
+          <h2>Experiences professionnelles</h2>
+          <h3>gestionnaire de paie, AM Expert et Conseils (cabinet d'expertise-comptable) Béthune (62400):2023</h3>
+          <ul>
+            <li>Gestion de la paie</li>
+            <li>administration du personnel</li>
+          </ul>
+          <h3>gestionnaire de paie, PROMAN (agence d'intérim) Hénin-Beaumont (62110):2022</h3>
+          <ul>
+            <li>Acceuil physique et téléphonique</li>
+            <li>gestion de la paie</li>
+            <li>administration du personnel</li>
+          </ul>
+          <h3>gestionnaire de paie, Mairie Loison-sous-lens (62218): 2022</h3>
+        </div>
+      </section> 
+      <section>
+        <div class="softlang" id="Sof">
+          <h2>Soft skills</h2>
+          <p>De part mes expériences professionnelles je possède de nombreux savoir-être et qualitésessentiels pour exercer ce métier</p>
+          <ul>
+            <li>Le travail d'équipe</li>
+            <li>La rigueur et l'organisation</li>
+            <li>Le sens de la confidentialité</li>
+            <li>Etre à l'aise avec les outils informatiques</li>
+          </ul>
+        </div>
+        <div class="langue" id="Lang">
+          <h2>Langues</h2>
+          <ul>
+            <li>Anglais: orale et écrit B1</li>
+            <li>Arabe: orale B1</li>
+            <li>espagnol: orale et écrit A2</li>
+          </ul>
+        </div>
+      </section>  
     </main>
 </body>
 
