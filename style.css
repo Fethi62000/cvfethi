@@ -1,0 +1,110 @@
+* {
+    font-style: italic;
+    font-weight: 100;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    padding: 30px;
+}
+
+body {
+    background-image: url(/image/codepict.jpeg);
+    background: size 1000px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+img {
+    height: 150px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    margin: 5px;
+    box-shadow: 0px 1px 5px rgb(161, 161, 161);
+}
+
+.navbutton {
+    font-style: normal;
+    transition: 0.5s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px rgb(161, 161, 161);
+    padding: 10px 15px;
+}
+
+.pict {
+    border-radius: 100px;
+    border-color: rgb(0, 0, 0);
+    margin: 5px;
+    box-shadow: 0px 1px 5px rgb(161, 161, 161);
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.tete {
+    display: flex;
+    flex-direction: row;
+}
+
+#pres {
+    border-radius: 30px;
+}
+
+.textpres {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin: 50px;
+}
+
+.langinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 50px 100px 50px;
+    border: #000000 1px solid;
+    box-shadow: 0px 1px 5px rgb(161, 161, 161);
+    background-color: rgb(108, 0, 248);
+    border-radius: 10%;
+}
+
+#comp {
+    border-radius: 30px;
+}
